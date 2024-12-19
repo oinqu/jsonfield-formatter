@@ -1,0 +1,14 @@
+{
+  "id": "jsonfieldFormatter",
+  "version": "1.0.0",
+  "kibanaVersion": "8.8.0",
+  "owner": {
+    "name": "oinqu",
+    "githubTeam": ""
+  },
+  "description": "Format text field containing JSON string into pretty printed JSON",
+  "server": false,
+  "ui": true,
+  "requiredPlugins": ["fieldFormats"],
+  "optionalPlugins": []
+}
