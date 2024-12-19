@@ -12,13 +12,13 @@ No idea why do we even have to do this in 2024.
 
 ## Install
 ~~~
-kibana-plugin install https://github.com/oinqu/jsonfield-formatter/raw/refs/heads/master/build/jsonfieldFormatter-8.8.0.zip
+kibana-plugin install https://github.com/oinqu/jsonfield-formatter/raw/refs/heads/main/build/jsonfieldFormatter-8.8.0.zip
 ~~~
 
 For Docker images [build like this](https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-custom-images.html):
 ~~~
 FROM docker.elastic.co/kibana/kibana:8.8.0
-RUN /usr/share/kibana/bin/kibana-plugin install https://github.com/oinqu/jsonfield-formatter/raw/refs/heads/master/build/jsonfieldFormatter-8.8.0.zip
+RUN /usr/share/kibana/bin/kibana-plugin install https://github.com/oinqu/jsonfield-formatter/raw/refs/heads/main/build/jsonfieldFormatter-8.8.0.zip
 RUN /usr/share/kibana/bin/kibana --optimize
 ~~~
 
